@@ -1,0 +1,31 @@
+.btn-success:hover{
+    background-color: red;
+    transform:scale(1.5);
+}
+h3{
+    font-size:25px !important;
+    
+}
+h3:hover{
+    transform:scale(1.5);
+}
+canvas{
+    animation-name: die;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes die{
+    
+    0%   {box-shadow:1px 1px 1008px purple; left:700px; top:300px;}
+    20%  {box-shadow:1px 1px 1008px aqua; left:700px; top:300px;}
+    40%  {box-shadow:1px 1px 1008px lightgreen; left:700px; top:300px;}
+    60%  {box-shadow:1px 1px 1008px lightyellow; left:700px; top:300px;}
+    80% {box-shadow:1px 1px 1008px pink; left:700px; top:300px;}
+    100% {box-shadow:1px 1px 1008px purple; left:700px; top:300px;}
+}
+body{
+    background-repeat: no-repeat, repeat;
+    background-color: black;
+    padding-top: 15px;
+    background-position: center;
+}
